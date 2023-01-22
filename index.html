@@ -27,8 +27,23 @@
 <body>
   <header class="bg-yellow-50 py-20">
     <!-- nav -->
+    <nav class="container w-4/5 mx-auto mb-20">
+      <div class="flex justify-between">
+        <div>
+          <img class="w-[240px]" src="images/logo.png" alt="">
+        </div>
+        <div>
+          <ul class="flex justify-between gap-10 items-center font-semibold">
+            <li>Home</li>
+            <li>Product</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- banner -->
-    <div class="container mx-auto md:flex justify-around items-center lg:gap-10 ">
+    <div class="container w-4/5 mx-auto md:flex justify-between items-center lg:gap-10 mb-10 ">
       <div class="space-y-6 px-5">
         <h1 class="uppercase font-semibold text-7xl"> <span class="text-yellow-400">Be the Penguins</span>
           <br>
@@ -48,14 +63,14 @@
       </div>
     </div>
   </header>
-  <main class="container mx-auto">
+  <main class="container w-4/5 mx-auto">
     <!-- woman jacket section -->
-    <section class="mt-12">
+    <section class="mt-12 mb-20">
       <h2 class="uppercase font-semibold text-5xl mb-10">Woman Jacket</h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <!-- jacket card-1 -->
-        <div class="rounded 2xl p-4 drop-shadow-xl">
+        <div class="rounded 2xl p-5 drop-shadow-xl bg-white">
           <div class="bg-slate-50 rounded 2xl w-full">
             <img src="images/jacket-1.png" alt="">
           </div>
@@ -75,7 +90,7 @@
           </div>
         </div>
         <!-- jacket-card 2 -->
-        <div class="rounded 2xl p-4 drop-shadow-xl">
+        <div class="rounded 2xl p-5 drop-shadow-xl bg-white">
           <div class="bg-slate-50 rounded 2xl">
             <img src="images/jacket-2.png" alt="">
           </div>
@@ -95,7 +110,7 @@
           </div>
         </div>
         <!-- jacket card 3 -->
-        <div class="rounded 2xl p-4 drop-shadow-xl">
+        <div class="rounded 2xl p-5 drop-shadow-xl bg-white">
           <div class="bg-slate-50 rounded 2xl">
             <img src="images/jacket-3.png" alt="">
           </div>
@@ -121,9 +136,9 @@
       <h3 class="font-semibold uppercase text-5xl my-12">
         Man Jacket
       </h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <!-- man jacket card1 -->
-        <div class="rounded 2xl p-4 drop-shadow-xl">
+        <div class="rounded 2xl p-5 drop-shadow-xl bg-white">
           <div class="bg-slate-50 rounded-4">
             <img src="images/jacket-4.png" alt="">
           </div>
@@ -145,7 +160,7 @@
           </div>
         </div>
         <!-- man jacket card2 -->
-        <div class="rounded 2xl p-4 drop-shadow-xl">
+        <div class="rounded 2xl p-5 drop-shadow-xl bg-white">
           <div class="bg-slate-50 rounded-4">
             <img src="images/jacket-4.png" alt="">
           </div>
@@ -167,7 +182,7 @@
           </div>
         </div>
         <!-- man jacket card3 -->
-        <div class="rounded 2xl p-4 drop-shadow-xl">
+        <div class="rounded 2xl p-5 drop-shadow-xl bg-white">
           <div class="bg-slate-50 rounded-4">
             <img src="images/jacket-4.png" alt="">
           </div>
@@ -192,10 +207,10 @@
     </section>
 
     <!-- ******** -->
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-5 my-20 p-4">
-      <div  class=" order-2 md:order-1 flex justify-center items-center p-6 rounded-2xl gap-6 drop-shadow-2xl">
-      <div>
-        <img class="w-20 h-20" src="images/house.png" alt="">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 g-10 my-20 p-5">
+      <div class=" order-2 md:order-1 flex justify-center items-center p-6 rounded-2xl gap-6 drop-shadow-2xl bg-white">
+        <div>
+          <img class="w-20 h-20" src="images/house.png" alt="">
         </div>
         <div>
           <h2 class="font-semibold text-2xl">Find the Perfect Fit
@@ -206,20 +221,20 @@
       <div class="row-span-3 order-1 md:order-2">
         <img class="w-3/4 md:w-full" src="images/shopping.png" alt="">
       </div>
-      <div class=" order-3 flex justify-center items-center p-6 rounded-2xl gap-6 drop-shadow-2xl">
-      <div>
-        <img class="w-20 h-20" src="images/box.png" alt="">
-      </div >
+      <div class=" order-3 flex justify-center items-center p-6 rounded-2xl gap-6 drop-shadow-2xl bg-white">
+        <div>
+          <img class="w-20 h-20" src="images/box.png" alt="">
+        </div>
         <div>
           <h2 class="font-semibold text-2xl">Free Exchanges
           </h2>
           <p>One of the many reasons you can shop with peace of mind.</p>
         </div>
       </div>
-      <div class="order-4 flex justify-center items-center p-6 rounded-2xl gap-6 drop-shadow-2xl">
+      <div class="order-4 flex justify-center items-center p-6 rounded-2xl gap-6 drop-shadow-2xl bg-white">
         <div>
-        <img class="w-20 h-20" src="images/question.png" alt="">
-      </div>
+          <img class="w-20 h-20" src="images/question.png" alt="">
+        </div>
         <div>
           <h2 class="font-semibold text-2xl">
             Contact Our Seller
